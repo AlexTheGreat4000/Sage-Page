@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+	<title>Welcome</title
+</head>
+<body>
+	<div class="title">
+		<h1>Welcome</h1>
+	</div>
+	<div>
+		<a href="https://www.google.com.au">
+			<img class="imagesgoogle" src="Google Logo.png"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://classroom.google.com/u/1/h">
+			<img class="imagesclassroom" src="Google Classroom Logo.png"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://student.det.nsw.edu.au">
+			<img class="imagesportal" src="Student Portal Logo.png"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.youtube.com">
+			<img class="imagesyoutube" src="YouTube Logo.png"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://www.mathsonline.com.au">
+			<img class="imagesmaths" src="Maths Online Logo.png"/>
+		</a>
+	</div>
+	<div class="links">
+		<a style="text-decoration: none" href="https://www.google.com.au">Google &emsp; &emsp; </a>
+		<a style="text-decoration: none" href="https://classroom.google.com/u/1/h">Google Classroom &emsp; &nbsp;</a>
+		<a style="text-decoration: none" href="https://student.det.nsw.edu.au">Student Portal &emsp; &emsp; &nbsp;</a>
+		<a style="text-decoration: none" href="https://www.youtube.com">YouTube &emsp; &emsp; &nbsp;</a>
+		<a style="text-decoration: none" href="https://www.mathsonline.com.au">Maths Online &emsp; &emsp; &emsp;</a>
+	</div>
+	<div class="datetime">
+	<script type="text/javascript">
+	document.write ('<p><span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
+	if (document.getElementById) onload = function () {
+		setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+	}
+	</script>
+	</div>
+	<div class="googlesearch">
+		<form onsubmit="this.submit(); this.reset(); return false;" action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+			<input name="sitesearch" type="hidden" value="">
+			<input autocomplete="off" class="form-search search" name="q" placeholder="Google Search" type="text">
+			<button class="button" type="submit">Search</button>
+		</form>
+	</div>
+</body>
+</html>

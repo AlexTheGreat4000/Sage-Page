@@ -1,0 +1,90 @@
+a:visited {color: black;}
+
+h1 {
+	font-family: Helvetica;
+	text-align: center;
+}
+
+.links {
+	font-family: Helvetica;
+	color: black;
+	position: absolute;
+	top: 55%;
+	left: 51.2%;
+	transform: translateX(-50%) translateY(-55%);
+}
+
+.imagesgoogle {
+	position: absolute;
+	top: 40%;
+	left: 26.9%;
+	transform: translateX(-25.2%) translateY(-40%);
+	width: 100px;
+	height: 100px;
+}
+
+.imagesclassroom {
+	position: absolute;
+	top: 40%;
+	left: 37.6%;
+	transform: translateX(-37.4%) translateY(-40%);
+	width: 100px;
+	height: 100px;
+}
+
+.imagesportal {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translateX(-51.1%) translateY(-40%);
+	width: 100px;
+	height: 100px;
+}
+
+.imagesyoutube {
+	position: absolute;
+	top: 40%;
+	left: 60.7%;
+	transform: translateX(-62.7%) translateY(-40%);
+	width: 100px;
+	height: 100px;
+}
+
+.imagesmaths {
+	position: absolute;
+	top: 40%;
+	left: 71.2%;
+	transform: translateX(-73.8%) translateY(-40%);
+	width: 100px;
+	height: 100px;
+}
+
+
+.datetime {
+	white-space: nowrap;
+	font-family: Helvetica;
+	position: absolute;
+	top: 91%;
+	left: 57%;
+	transform: translateX(-90%) translateY(-20%);
+	font-size: 23px;
+}
+
+.googlesearch {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-70%);
+}
+
+input {
+	width: 600px;
+	height: 35px;
+	margin: auto;
+	position: relative;
+}
+
+body {
+	background-image: url("Background.png");
+}
+
